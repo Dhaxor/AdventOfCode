@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-fs.readFile('./1.txt', 'utf-8', (err, content)=> {
+fs.readFile('../Input/1.txt', 'utf-8', (err, content)=> {
   if (err) return err;
   solveAlgo(content);
 })
